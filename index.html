@@ -59,6 +59,42 @@
             <use href="./images/sprite.svg#icon-closed"></use>
           </svg>
         </button>
+        <form class="form">
+          <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
+          <div class="fieldset">
+            <label for="name" class="field">
+              <span class="label">Имя</span>
+              <input class="input" type="name" name="name" id="name">
+            </label>
+            <label for="tel" class="field">
+              <span class="label">Телефон</span>
+              <input class="input" type="tel" name="tel" id="tel">
+            </label>
+            <label for="mail" class="field">
+              <span class="label">Почта</span>
+              <input class="input" type="email" name="mail" id="mail">
+            </label>
+            <label for="comment" class="field">
+              <span class="label">Коментарий</span>
+              <textarea class="field comment" 
+              name="comment" 
+              id="comment"
+              cols="48"
+              rows="6"
+              placeholder="введите текст"></textarea>
+            </label>
+            <label class="checkbox">
+              <input class="check-input visually-hidden" type="checkbox">
+              <svg>
+                <use></use>
+              </svg>
+              <span>Соглашаюсь с рассылкой и принимаю <a href="#" class="link">Условия договора</a></span>
+            </label>
+            <button class="btn-form" type="submit">
+              <span class="btn-text">Отправить</span>
+            </button>
+          </div>
+        </form>
       </div>
     </div>
    
@@ -329,7 +365,20 @@
           </svg></a></li>
           </ul>
         </div>
-    </div>
+          <div class="subscribe">
+            <b class="subscribe-title">подпишитесь на рассылку</b>
+            <form class="subscription" autocomplete="off">
+              <label class="subscription-field">
+                <input class="subscription-input" type="mail" name="mail" id="mail" placeholder="E-mail">
+              </label>
+            <button class="subscribe-btn" type="submit" href="#">
+              <span class="submit-text">Подписаться</span>
+              <svg class="sub-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+            </form>
+          </div>
    </footer>
   <script src="./js/modal.js"></script>
   </body>
