@@ -163,7 +163,7 @@ img {
 
   min-width: 528px;
   min-height: 581px;
-  background: #ffffff;
+  background: var(--main-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -186,14 +186,14 @@ img {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-font-color);
 }
 .field .icon {
   position: absolute;
   display: inline-block;
   bottom: 11px;
   left: 12px;
-  fill: #212121;
+  fill: var(--main-font-color);
 }
 .field + .field {
   margin-top: 10px;
@@ -209,7 +209,7 @@ img {
   font-size: 12px;
   line-height: 1.166;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: var(--main-grey-color);
 }
 .input {
   padding-top: 10px;
@@ -256,7 +256,7 @@ img {
   width: 30px;
   height: 30px;
 
-  background: #ffffff;
+  background: var(--main-white-color);
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
@@ -286,7 +286,7 @@ img {
 .check-input:checked + .check-text::before {
   background-color: var(--color-accent);
   border: 0;
-  background-image: url(../images/sprite2.svg#icon-icon-check);
+  background-image: url(../images/img/iconCheck.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -296,7 +296,7 @@ img {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-grey-color);
 }
 
 .checkbox a {
@@ -305,13 +305,12 @@ img {
 }
 .check-text {
   display: flex;
-  justify-content: center;
   align-items: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-grey-color);
 }
 .check-text::before {
   content: "";
@@ -336,7 +335,7 @@ img {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--main-white-color);
 
   background: #2196f3;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -472,7 +471,7 @@ img {
   text-transform: uppercase;
   padding-top: 27px;
   padding-bottom: 27px;
-  color: #ffffff;
+  color: var(--main-white-color);
 }
 .section-image .container {
   display: flex;
@@ -519,7 +518,7 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  background: #ffffff;
+  background: var(--main-white-color);
 }
 .workers-photo:not(:last-child) {
   margin-right: 30px;
@@ -623,7 +622,7 @@ img {
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-font-color);
   margin-bottom: 50px;
 }
 /* footer */
@@ -675,7 +674,7 @@ img {
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-white-color);
 }
 .join-item {
   display: flex;
@@ -708,7 +707,7 @@ img {
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-white-color);
 }
 .subscription {
   display: flex;
@@ -741,11 +740,11 @@ img {
   line-height: 1.875;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--main-white-color);
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  fill: #ffffff;
+  fill: var(--main-white-color);
   border: none;
   cursor: pointer;
 }
@@ -833,7 +832,7 @@ img {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-grey-color);
 }
 .port-cards:hover .overlay,
 .port-cards:focus .overlay {
@@ -876,7 +875,7 @@ img {
   font-size: 18px;
   line-height: 1.555;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--main-white-color);
   background-color: rgba(33, 150, 243, 0.9);
 
   transition-duration: 250ms;
