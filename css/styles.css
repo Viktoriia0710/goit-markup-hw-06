@@ -325,7 +325,7 @@ img {
   width: 16px;
   height: 15px;
   margin-right: 8px;
-  border: 2px solid var(--color-accent);
+  border: 2px solid var(--main-font-color);
   border-radius: 2px;
 }
 
